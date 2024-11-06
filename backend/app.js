@@ -31,7 +31,7 @@ router.post("/send/mail", async (req, res, next) => {
   }
   try {
     await sendEmail({
-      email: "nehathakur0115@gmail.com",
+      email: "@gmail.com",
       subject: "GYM WEBSITE CONTACT",
       message,
       userEmail: email,
